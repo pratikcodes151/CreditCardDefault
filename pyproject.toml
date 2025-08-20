@@ -1,0 +1,16 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cc-default-starter"
+version = "0.1.0"
+description = "End-to-end credit card default classifier starter"
+requires-python = ">=3.9"
+authors = [{name="You"}]
+dependencies = []
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py310", "py311"]
